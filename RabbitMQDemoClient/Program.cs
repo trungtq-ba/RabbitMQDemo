@@ -20,11 +20,14 @@ namespace RabbitMQDemoClient
             // LogsReceiver.Run();
 
             // 4. Routing
-            LogsDirectReceiver.Run();
+            // LogsDirectReceiver.Run();
 
-            //
-            Console.WriteLine("Press [Enter] to Exit.");
-            Console.ReadLine();
+            // 5. Topics
+            //EmitLogTopicReceiver.Run();
+
+            // 6. RPC
+            //Rpc.RunLoop(100);
+            Rpc.Run();
         }
     }
 }

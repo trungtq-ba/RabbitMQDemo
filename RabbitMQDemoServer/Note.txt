@@ -1,4 +1,6 @@
-﻿https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html
+﻿https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/dotnet
+
+https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html
 https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html
 https://www.rabbitmq.com/tutorials/tutorial-three-dotnet.html
 https://www.rabbitmq.com/tutorials/tutorial-four-dotnet.html

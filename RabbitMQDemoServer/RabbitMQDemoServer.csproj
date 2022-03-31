@@ -65,12 +65,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="7.PublisherConfirms\PublisherConfirms.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PubSub\EmitLogSender.cs" />
-    <Compile Include="Routing\EmitLogDirectSender.cs" />
-    <Compile Include="Sample\HelloWorldSender.cs" />
-    <Compile Include="Sample\WorkQueuesSender.cs" />
+    <Compile Include="3.PubSub\EmitLogSender.cs" />
+    <Compile Include="4.Routing\EmitLogDirectSender.cs" />
+    <Compile Include="6.RPC\RPCServer.cs" />
+    <Compile Include="1.HelloWorld\HelloWorldSender.cs" />
+    <Compile Include="2.WorkQueues\WorkQueuesSender.cs" />
+    <Compile Include="5.Topics\EmitLogTopicSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

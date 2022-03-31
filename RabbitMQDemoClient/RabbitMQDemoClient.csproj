@@ -67,15 +67,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PubSub\LogsReceiver.cs" />
-    <Compile Include="Routing\LogsDirectReceiver.cs" />
-    <Compile Include="Sample\HelloWorldReceiver.cs" />
-    <Compile Include="Sample\WorkQueueReceiver.cs" />
+    <Compile Include="3.PubSub\LogsReceiver.cs" />
+    <Compile Include="4.Routing\LogsDirectReceiver.cs" />
+    <Compile Include="6.RPC\RPCClient.cs" />
+    <Compile Include="1.HelloWorld\HelloWorldReceiver.cs" />
+    <Compile Include="2.WorkQueue\WorkQueueReceiver.cs" />
+    <Compile Include="5.Topics\EmitLogTopicReceiver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="7.PublisherConfirms\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

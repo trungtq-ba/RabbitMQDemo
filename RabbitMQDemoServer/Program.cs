@@ -20,8 +20,17 @@ namespace RabbitMQDemoServer
             // EmitLogSender.RunLoop(1000);
 
             // 4. Routeing
-            EmitLogDirectSender.RunLoop(1000);
+            // EmitLogDirectSender.RunLoop(1000);
 
+            // 5. Topics
+            // EmitLogTopicSender.RunLoop(1000);
+
+            // 6. RPC
+            // RPCServer.Run();
+
+            // 7. PublisherConfirms
+
+            PublisherConfirms.Run();
 
             Console.WriteLine("Press [Enter] to Exit.");
             Console.ReadLine();
